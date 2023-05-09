@@ -69,7 +69,7 @@ const Special = () => {
                 className={`absolute w-full bottom-0 left-0 h-[40%] bg-white/80 backdrop-blur-lg group-hover/item:-translate-x-8 group-hover/item:-translate-y-8 rounded-lg transition-all duration-300 ease-linear grid place-items-center invisible group-hover/item:visible  `}
               >
                 <div className="px-4">
-                  <h2 className={`text-3xl ${morgan.className}`}>{el.title}</h2>
+                  <h2 className={`text-lg ${stan.className}`}>{el.title}</h2>
                   <p className="text-sm">{el.desc}</p>
                 </div>
               </div>
