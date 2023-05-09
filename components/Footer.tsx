@@ -117,14 +117,17 @@ const Footer = () => {
         </div>
       </div>
       <hr className="border-t-2 border-white mt-4 max-w-6xl mx-auto" />
-      <div className="grid place-items-center py-8 text-center px-4 ">
+      <div className="grid place-items-center py-8 text-center px-4  ">
         {/* <Image src={logo} alt={""} className="py-2" /> */}
-        <h2 className="text-base md:text-lg pb-2">
-          All rights reserved by Masala Town
+        <h2 className="text-base md:text-lg pb-2 divide-x">
+          <span>
+            Copyright © <span className="px-2">{new Date().getFullYear()}</span>
+          </span>
+          <span className="px-1"> All rights reserved by Masala Town</span>
         </h2>
         <Link href="https://debox.co.in/" target="_blank" className="text-base">
-          Designed by{" "}
-          <span className="hover:underline text-blue-800 text-sm">
+          Designed and developed by{" "}
+          <span className="hover:underline text-primeBeige text-sm font-bold">
             {" "}
             Debox Consulting
           </span>

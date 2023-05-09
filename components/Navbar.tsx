@@ -116,7 +116,7 @@ export default function Navbar() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } fixed transition-all top-0 left-0 w-full bg-primeBeige h-screen z-[100]  text-lg`}
+          } fixed transition-all top-0 left-0 w-full bg-[#fd6d26] h-screen z-[100]  text-lg`}
         >
           <div className="flex justify-between">
             {/* <Image

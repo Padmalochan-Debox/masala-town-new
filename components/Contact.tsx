@@ -62,7 +62,7 @@ const Contact = () => {
     });
   }
   return (
-    <div id="contact" className="isolate bg-black scroll-mt-16 text-white  ">
+    <div id="contact" className="isolate bg-black scroll-mt-16   ">
       <div className="grid md:grid-cols-12 grid-cols-1">
         <div
           data-aos="fade-left"
@@ -75,14 +75,14 @@ const Contact = () => {
             className="h-full w-auto object-cover"
           />
         </div>
-        <div className="md:col-span-5 col-span-1 grid place-items-center md:order-none order-2">
+        <div className="md:col-span-5 col-span-1 grid place-items-center md:order-none order-2 ">
           <div
             data-aos="fade-right"
             data-aos-duration="1500"
             className="bg-primeYellow max-w-4xl mx-auto py-12 lg:px-16 px-4 rounded-2xl "
           >
-            <div className="mx-auto max-w-2xl text-left md:text-center ">
-              <h2 className={`md:text-6xl text-4xl ${stan.className}`}>
+            <div className="mx-auto max-w-2xl text-left md:text-center text-white">
+              <h2 className={`md:text-6xl  text-4xl ${stan.className}`}>
                 Contact Us
               </h2>
               <p className="mt-2 text-sm leading-8 ">
@@ -99,7 +99,7 @@ const Contact = () => {
                 <div>
                   <label
                     htmlFor="first-name"
-                    className="block text-sm font-semibold leading-6 text-white "
+                    className="block text-sm font-semibold leading-6  text-white"
                   >
                     First name
                   </label>
@@ -116,7 +116,7 @@ const Contact = () => {
                         }))
                       }
                       autoComplete="given-name"
-                      className="block w-full rounded-md border-0 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6"
+                      className="block w-full text-black !bg-gray-200 rounded-md border-0 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-gray-300  sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -141,14 +141,14 @@ const Contact = () => {
                         }))
                       }
                       autoComplete="email"
-                      className="block w-full rounded-md border-0 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400  sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md border-0 !bg-gray-200 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300  sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
                 <div className="sm:col-span-2">
                   <label
                     htmlFor="phone-number"
-                    className="block text-sm font-semibold leading-6 text-white mb-2.5"
+                    className="block text-sm font-semibold leading-6 mb-2.5 text-white"
                   >
                     Phone number
                   </label>
@@ -164,9 +164,9 @@ const Contact = () => {
                     }}
                     value={contact.phone}
                     country={"au"}
-                    inputClass="!w-full !py-5"
+                    inputClass="!w-full !py-5 !bg-gray-300 !rounded-md"
                     // inputClass="!block !w-full !rounded-md !border-0 !px-3.5 !py-5  !shadow-sm !ring-1 !ring-inset !ring-gray-300 !placeholder:text-gray-400 !sm:text-sm !sm:leading-6"
-                    containerClass="!text-black"
+                    containerClass="!text-black !bg-gray-400 !rounded-md"
                   />
                 </div>
                 <div className="sm:col-span-2">
@@ -188,7 +188,7 @@ const Contact = () => {
                         }))
                       }
                       rows={3}
-                      className="block w-full rounded-md border-0 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400  sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md !bg-gray-300 border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 sm:text-sm sm:leading-6"
                     />{" "}
                     {/* !focus:ring-2 !focus:ring-inset !focus:ring-indigo-600 */}
                   </div>
