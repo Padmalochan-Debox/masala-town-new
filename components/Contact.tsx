@@ -72,7 +72,7 @@ const Contact = () => {
           <Image
             src={bufImg}
             alt="Buffet of Masala town"
-            className="h-full w-auto object-cover"
+            className="h-full w-full object-cover"
           />
         </div>
         <div className="md:col-span-5 col-span-1 grid place-items-center md:order-none order-2 ">
@@ -116,7 +116,7 @@ const Contact = () => {
                         }))
                       }
                       autoComplete="given-name"
-                      className="block w-full text-black !bg-white/60 rounded-md px-3.5 py-2 shadow-sm sm:text-sm sm:leading-6"
+                      className="block w-full text-black !bg-white/80 rounded-md px-3.5 py-2 shadow-sm sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -141,7 +141,7 @@ const Contact = () => {
                         }))
                       }
                       autoComplete="email"
-                      className="block w-full text-black !bg-white/60 rounded-md px-3.5 py-2 shadow-sm sm:text-sm sm:leading-6"
+                      className="block w-full text-black !bg-white/80 rounded-md px-3.5 py-2 shadow-sm sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -164,7 +164,7 @@ const Contact = () => {
                     }}
                     value={contact.phone}
                     country={"au"}
-                    inputClass="!w-full !py-5 !bg-[#999] !rounded-md !outline-none"
+                    inputClass="!w-full !py-5 !bg-[#ccc] !rounded-md !outline-none"
                     // inputClass="!block !w-full !rounded-md !border-0 !px-3.5 !py-5  !shadow-sm !ring-1 !ring-inset !ring-gray-300 !placeholder:text-gray-400 !sm:text-sm !sm:leading-6"
                     containerClass="!text-black"
                   />
@@ -188,7 +188,7 @@ const Contact = () => {
                         }))
                       }
                       rows={3}
-                      className="block w-full text-black !bg-white/60 rounded-md px-3.5 py-2 shadow-sm sm:text-sm sm:leading-6"
+                      className="block w-full text-black !bg-white/80 rounded-md px-3.5 py-2 shadow-sm sm:text-sm sm:leading-6"
                     />{" "}
                     {/* !focus:ring-2 !focus:ring-inset !focus:ring-indigo-600 */}
                   </div>
