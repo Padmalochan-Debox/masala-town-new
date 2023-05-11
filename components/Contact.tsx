@@ -4,7 +4,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import Image from "next/image";
 import { morgan, pangolin, stan } from "@/pages/_app";
-import bufImg from "../public/assets/I1.jpg";
+import bufImg from "../public/assets/contact.png";
 const Contact = () => {
   const [contact, setContact] = useState({
     name: "",
@@ -116,7 +116,7 @@ const Contact = () => {
                         }))
                       }
                       autoComplete="given-name"
-                      className="block w-full text-black !bg-gray-400 rounded-md border-0 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-gray-300  sm:text-sm sm:leading-6"
+                      className="block w-full text-black !bg-white/60 rounded-md px-3.5 py-2 shadow-sm sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -141,14 +141,14 @@ const Contact = () => {
                         }))
                       }
                       autoComplete="email"
-                      className="block w-full rounded-md border-0 !bg-gray-400 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300  sm:text-sm sm:leading-6"
+                      className="block w-full text-black !bg-white/60 rounded-md px-3.5 py-2 shadow-sm sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
                 <div className="sm:col-span-2">
                   <label
                     htmlFor="phone-number"
-                    className="block text-sm font-semibold leading-6 mb-2.5 text-white"
+                    className="block text-sm font-semibold leading-6 mb-2.5 text-white "
                   >
                     Phone number
                   </label>
@@ -164,9 +164,9 @@ const Contact = () => {
                     }}
                     value={contact.phone}
                     country={"au"}
-                    inputClass="!w-full !py-5 !bg-gray-400 !rounded-md"
+                    inputClass="!w-full !py-5 !bg-[#999] !rounded-md !outline-none"
                     // inputClass="!block !w-full !rounded-md !border-0 !px-3.5 !py-5  !shadow-sm !ring-1 !ring-inset !ring-gray-300 !placeholder:text-gray-400 !sm:text-sm !sm:leading-6"
-                    containerClass="!text-black !bg-gray-400 !rounded-md"
+                    containerClass="!text-black"
                   />
                 </div>
                 <div className="sm:col-span-2">
@@ -188,7 +188,7 @@ const Contact = () => {
                         }))
                       }
                       rows={3}
-                      className="block w-full rounded-md !bg-gray-400 border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 sm:text-sm sm:leading-6"
+                      className="block w-full text-black !bg-white/60 rounded-md px-3.5 py-2 shadow-sm sm:text-sm sm:leading-6"
                     />{" "}
                     {/* !focus:ring-2 !focus:ring-inset !focus:ring-indigo-600 */}
                   </div>

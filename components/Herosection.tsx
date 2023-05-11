@@ -130,7 +130,7 @@ export default function HeroSection() {
                   data-name="Icon ionic-ios-arrow-forward"
                   d="M40.687,43.038,12.794,15.167a5.245,5.245,0,0,1,0-7.44,5.312,5.312,0,0,1,7.462,0l31.6,31.58a5.258,5.258,0,0,1,.154,7.264l-31.734,31.8a5.268,5.268,0,0,1-7.462-7.44Z"
                   transform="translate(1836.821 496.948)"
-                  className="fill-white/60 hover:fill-white transition-all duration-300 ease-in-out"
+                  className="fill-white/60 hover:fill-white transition-all duration-150 ease-in-out"
                 />
               </g>
             </svg>
