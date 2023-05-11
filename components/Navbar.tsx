@@ -98,7 +98,7 @@ export default function Navbar() {
 
         <button
           onClick={() => setIsOpen((prev) => !prev)}
-          className="inline-flex  lg:hidden absolute top-9 right-4 ml-auto text-white"
+          className="inline-flex  lg:hidden absolute top-8 right-4 ml-auto text-white"
           aria-label="Menu Mobile Button"
         >
           <svg
@@ -118,7 +118,7 @@ export default function Navbar() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } fixed transition-all top-0 left-0 w-full bg-tertiary h-screen z-[100]  text-lg`}
+          } fixed transition-all top-0 left-0 w-full bg-black h-screen z-[100]  text-lg`}
         >
           <div className="flex justify-between">
             {/* <Image
@@ -137,7 +137,7 @@ export default function Navbar() {
               &times;
             </button>
           </div>
-          <ul className="flex flex-col justify-center items-center gap-4 h-full pb-10">
+          <ul className="flex flex-col justify-center items-center gap-4 h-full pb-10 text-white">
             {navigation.map((link) => (
               <Link
                 key={link.name}
@@ -148,7 +148,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link href={"/"}>
-              <button className="text-lg font-bold hover:bg-white/80 hover:text-black px-4 py-1.5 rounded-md border border-black">
+              <button className="text-lg font-bold hover:bg-white/80 hover:text-black px-4 py-1.5 rounded-md border border-white">
                 Order Online
               </button>
             </Link>
