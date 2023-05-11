@@ -116,7 +116,7 @@ const Contact = () => {
                         }))
                       }
                       autoComplete="given-name"
-                      className="block w-full text-black !bg-gray-200 rounded-md border-0 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-gray-300  sm:text-sm sm:leading-6"
+                      className="block w-full text-black !bg-gray-400 rounded-md border-0 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-gray-300  sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -141,7 +141,7 @@ const Contact = () => {
                         }))
                       }
                       autoComplete="email"
-                      className="block w-full rounded-md border-0 !bg-gray-200 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300  sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md border-0 !bg-gray-400 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300  sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -164,7 +164,7 @@ const Contact = () => {
                     }}
                     value={contact.phone}
                     country={"au"}
-                    inputClass="!w-full !py-5 !bg-gray-300 !rounded-md"
+                    inputClass="!w-full !py-5 !bg-gray-400 !rounded-md"
                     // inputClass="!block !w-full !rounded-md !border-0 !px-3.5 !py-5  !shadow-sm !ring-1 !ring-inset !ring-gray-300 !placeholder:text-gray-400 !sm:text-sm !sm:leading-6"
                     containerClass="!text-black !bg-gray-400 !rounded-md"
                   />
@@ -188,7 +188,7 @@ const Contact = () => {
                         }))
                       }
                       rows={3}
-                      className="block w-full rounded-md !bg-gray-300 border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md !bg-gray-400 border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 sm:text-sm sm:leading-6"
                     />{" "}
                     {/* !focus:ring-2 !focus:ring-inset !focus:ring-indigo-600 */}
                   </div>
@@ -205,7 +205,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   onClick={handleSubmit}
-                  className="block mx-auto  hover:bg-primeBeige bg-black  text-center hover:text-white text-white border-2 font-bold px-5 py-1.5 rounded-md transition-colors duration-300"
+                  className="block mx-auto  hover:bg-tertiary bg-black  text-center hover:text-black text-white border font-bold px-5 py-1.5 rounded-md transition-colors duration-300"
                 >
                   {`Submit`}
                 </button>

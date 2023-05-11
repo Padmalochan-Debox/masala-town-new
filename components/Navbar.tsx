@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import Router from "next/router";
 import Link from "next/link";
 
-import logo from "../public/assets/MasalaTown_Logo.png";
+import logo from "../public/assets/Logo.png";
 
 const navigation = [
   { name: "About Us", href: "/#about" },
@@ -49,7 +49,9 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed w-full z-50 top-0 left-0  shadow-xl bg-black md:py-4`}
+      className={`fixed w-full z-50 top-0 left-0 bg-black md:py-4 
+      `}
+      // ${scrolled ? "bg-black " : "bg-transparent"}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 " aria-label="Top">
         <div className="w-full  sm:-mb-0 flex items-center justify-between">
@@ -85,7 +87,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <Link href={"/"} target={"_blank"}>
-                <button className="hover:bg-primeBeige bg-black hover:text-white text-white border-2 font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
+                <button className="bg-black hover:bg-tertiary  text-white hover:text-black border font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
                   Order Now
                 </button>
               </Link>
@@ -146,7 +148,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link href={"/"}>
-              <button className="text-lg hover:bg-white hover:text-black px-4 py-1.5 rounded-md border border-black">
+              <button className="text-lg font-bold hover:bg-white hover:text-black px-4 py-1.5 rounded-md border border-black">
                 Order Online
               </button>
             </Link>

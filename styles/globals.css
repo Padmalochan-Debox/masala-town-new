@@ -60,3 +60,18 @@ body {
 *::-webkit-scrollbar-thumb {
   background-color: red;
 }
+
+.react-tel-input .flag-dropdown {
+  background-color: transparent !important;
+  border: none !important;
+}
+.react-tel-input:hover .flag-dropdown:hover {
+  background-color: transparent !important;
+}
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+}
+/* .react-tel-input .country-list {
+  background-color: gray;
+} */

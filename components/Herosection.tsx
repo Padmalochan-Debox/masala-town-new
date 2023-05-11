@@ -42,7 +42,7 @@ export default function HeroSection() {
   const nextRef = useRef(null);
   return (
     <>
-      <div className="mt-14 hidden lg:block relative">
+      <div className="mt-16 hidden lg:block relative">
         {/* <div className="absolute w-full h-full inset-0 bg-black/50 z-10"></div> */}
         <Swiper
           onInit={(swiper: any) => {
@@ -75,7 +75,7 @@ export default function HeroSection() {
                 <div className="min-h-screen">
                   <Image
                     src={home.img}
-                    className="h-full bg-center"
+                    className="h-full bg-center brightness-50"
                     objectFit="cover"
                     layout="fill"
                     alt={home.alt}
@@ -105,7 +105,7 @@ export default function HeroSection() {
                   data-name="Icon ionic-ios-arrow-back"
                   d="M23.956,43.044,51.849,15.172a5.268,5.268,0,0,0-7.462-7.44l-31.6,31.58a5.258,5.258,0,0,0-.154,7.264l31.734,31.8a5.268,5.268,0,0,0,7.462-7.44Z"
                   transform="translate(26.242 496.946)"
-                  fill="#fff"
+                  className="fill-white/60 hover:fill-white transition-all duration-150 ease-in-out"
                 />
               </g>
             </svg>
@@ -130,7 +130,7 @@ export default function HeroSection() {
                   data-name="Icon ionic-ios-arrow-forward"
                   d="M40.687,43.038,12.794,15.167a5.245,5.245,0,0,1,0-7.44,5.312,5.312,0,0,1,7.462,0l31.6,31.58a5.258,5.258,0,0,1,.154,7.264l-31.734,31.8a5.268,5.268,0,0,1-7.462-7.44Z"
                   transform="translate(1836.821 496.948)"
-                  fill="#fff"
+                  className="fill-white/60 hover:fill-white transition-all duration-300 ease-in-out"
                 />
               </g>
             </svg>
@@ -160,7 +160,7 @@ export default function HeroSection() {
                 <div className="min-h-screen">
                   <Image
                     src={home.img}
-                    className="h-full bg-center !!object-center"
+                    className="h-full bg-center !!object-center brightness-50"
                     objectFit="cover"
                     layout="fill"
                     alt={home.alt}

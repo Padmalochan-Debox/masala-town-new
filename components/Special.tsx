@@ -108,10 +108,10 @@ const Special = () => {
             {specialData.map((el) => (
               <SwiperSlide key={el.title}>
                 <div className="relative">
-                  <div className="absolute w-full bottom-0 left-0 h-[38%] bg-primeBeige rounded-lg transition-all duration-300  grid place-items-center ">
-                    <div className="border text-white/80 border-white/70 m-2 p-2 rounded-lg">
+                  <div className="absolute w-full bottom-0 left-0 h-[38%] bg-black/70 rounded-lg transition-all duration-300  grid place-items-center ">
+                    <div className="border text-white border-white/70 m-2 p-2 rounded-lg">
                       <h2 className={`text-base font-bold `}>{el.title}</h2>
-                      <p className="text-sm">{el.desc}</p>
+                      <p className="text-xs">{el.desc}</p>
                     </div>
                   </div>
                   <div
@@ -131,7 +131,7 @@ const Special = () => {
           <h2
             className={`text-3xl text-white text-center pt-4 ${morgan.className}`}
           >
-            We use boneless and skinless Chicken
+            * We use boneless and skinless Chicken
           </h2>
         </div>
       </div>
