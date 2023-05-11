@@ -87,7 +87,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <Link href={"/"} target={"_blank"}>
-                <button className="bg-black hover:bg-tertiary  text-white hover:text-black border font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
+                <button className="bg-black hover:bg-white/80 text-white hover:text-black border font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
                   Order Now
                 </button>
               </Link>
@@ -148,7 +148,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link href={"/"}>
-              <button className="text-lg font-bold hover:bg-white hover:text-black px-4 py-1.5 rounded-md border border-black">
+              <button className="text-lg font-bold hover:bg-white/80 hover:text-black px-4 py-1.5 rounded-md border border-black">
                 Order Online
               </button>
             </Link>

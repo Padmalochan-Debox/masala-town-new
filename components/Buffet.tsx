@@ -6,6 +6,7 @@ import I1 from "../public/assets/I1.jpg";
 import bufImg from "../public/assets/Buffet.jpg";
 import { morgan, stan } from "@/pages/_app";
 import bgPat from "../public/assets/Pattern.svg";
+import Link from "next/link";
 
 const specialData = [
   {
@@ -64,9 +65,11 @@ const Buffet = () => {
               experience.`}
             </p>
             <div className="pt-4">
-              <button className="hover:bg-primeBeige bg-black hover:text-white text-white border-2 font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
-                Order Now
-              </button>
+              <Link href={"/#contact"}>
+                <button className="hover:bg-white/80 bg-black hover:text-black text-white border-2 font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
+                  Contact Now
+                </button>
+              </Link>
             </div>
           </div>
         </div>

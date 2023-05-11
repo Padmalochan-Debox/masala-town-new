@@ -53,7 +53,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
         <Link href="/" target={"_blank"}>
           <div className="fixed bottom-5 right-5 md:bottom-8 md:right-8 z-10">
-            <button className="text-lg bg-black hover:bg-tertiary  text-white hover:text-black border font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
+            <button className="text-lg bg-black hover:bg-white/80  text-white hover:text-black border font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
               Order Now
             </button>
           </div>

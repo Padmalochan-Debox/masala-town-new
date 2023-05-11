@@ -3,6 +3,7 @@ import React from "react";
 
 import catImg from "../public/assets/Catering.jpg";
 import { morgan, stan } from "@/pages/_app";
+import Link from "next/link";
 
 const Catering = () => {
   return (
@@ -44,12 +45,11 @@ const Catering = () => {
               enjoying your event.`}
               </p>
               <div className="pt-4">
-                {/* <button className="px-4 py-2 bg-[#ff8247] hover:bg-white hover:text-black text-white font-bold md:text-lg text-base rounded-lg transition-all duration-300 ease-in">
-                  Order Now
-                </button> */}
-                <button className="hover:bg-primeBeige bg-black hover:text-white text-white border-2 font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
-                  Order Now
-                </button>
+                <Link href={"/#contact"}>
+                  <button className="hover:bg-white/80 bg-black hover:text-black text-white border-2 font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
+                    Contact Now
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

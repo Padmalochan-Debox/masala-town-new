@@ -82,12 +82,12 @@ const Special = () => {
               </div>
             </div>
           ))}
-          <h2
-            className={`sm:text-xl md:text-2xl lg:text-4xl text-yellow-600 ${pangolin.className}`}
-          >
-            * We use boneless and skinless Chicken
-          </h2>
         </div>
+        <h2
+          className={`text-center sm:text-xl md:text-2xl lg:text-4xl text-white ${pangolin.className}`}
+        >
+          * We use boneless and skinless Chicken
+        </h2>
         {/* Smaller Devices */}
         <div
           data-aos="fade-up"

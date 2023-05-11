@@ -205,7 +205,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   onClick={handleSubmit}
-                  className="block mx-auto  hover:bg-tertiary bg-black  text-center hover:text-black text-white border font-bold px-5 py-1.5 rounded-md transition-colors duration-300"
+                  className="block mx-auto  hover:bg-white/80 bg-black  text-center hover:text-black text-white border font-bold px-5 py-1.5 rounded-md transition-colors duration-300"
                 >
                   {`Submit`}
                 </button>

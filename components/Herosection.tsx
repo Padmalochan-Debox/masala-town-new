@@ -75,7 +75,7 @@ export default function HeroSection() {
                 <div className="min-h-screen">
                   <Image
                     src={home.img}
-                    className="h-full bg-center brightness-50"
+                    className="h-full bg-center"
                     objectFit="cover"
                     layout="fill"
                     alt={home.alt}
@@ -160,7 +160,7 @@ export default function HeroSection() {
                 <div className="min-h-screen">
                   <Image
                     src={home.img}
-                    className="h-full bg-center !!object-center brightness-50"
+                    className="h-full bg-center !!object-center"
                     objectFit="cover"
                     layout="fill"
                     alt={home.alt}
