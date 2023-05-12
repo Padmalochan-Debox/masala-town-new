@@ -45,7 +45,7 @@ const Catering = () => {
               enjoying your event.`}
               </p>
               <div className="pt-4">
-                <h2 className="text-xl text-primeBeige font-bold">
+                <h2 className="md:text-xl text-lg text-primeBeige font-bold">
                   Contact us at :{" "}
                   <Link href="tel:+61 08 9848 1665" className="hover:underline">
                     +61 08 9848 1665

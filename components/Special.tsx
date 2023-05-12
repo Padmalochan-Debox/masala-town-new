@@ -84,7 +84,7 @@ const Special = () => {
           ))}
         </div>
         <h2
-          className={`text-center sm:text-xl md:text-2xl lg:text-4xl text-primeBeige ${pangolin.className}`}
+          className={`hidden md:block text-center sm:text-xl md:text-2xl lg:text-4xl text-primeBeige ${pangolin.className}`}
         >
           * We use boneless and skinless Chicken
         </h2>
@@ -129,7 +129,7 @@ const Special = () => {
             ))}
           </Swiper>
           <h2
-            className={`text-3xl text-primeBeige text-center pt-4 ${morgan.className}`}
+            className={`text-3xl text-primeBeige pl-4 pt-4 ${morgan.className}`}
           >
             * We use boneless and skinless Chicken
           </h2>
