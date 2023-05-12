@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import Router from "next/router";
 import Link from "next/link";
 
-import logo from "../public/assets/Logo.png";
+import logo from "../public/assets/Masala-Town-Logo_1.png";
 
 const navigation = [
   { name: "About Us", href: "/#about" },
@@ -49,7 +49,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed w-full z-50 top-0 left-0 bg-black md:py-4 
+      className={`fixed w-full z-50 top-0 left-0 bg-black  
       `}
       // ${scrolled ? "bg-black " : "bg-transparent"}
     >
@@ -60,12 +60,12 @@ export default function Navbar() {
               <Link href="/">
                 <div className="cursor-pointer">
                   <span className="sr-only">Himalayan Kitchen</span>
-                  <div className="hover:scale-110 duration-300 transition-transform px-4 py-2 md:py-0">
+                  <div className="hover:scale-110 duration-300 transition-transform px-4 py- md:py-0">
                     {" "}
                     <Image
                       priority
-                      height={50}
-                      width={80}
+                      height={100}
+                      width={150}
                       // className="brightness-0 invert"
                       // className="lg:w-52 w-40 h-20"
                       alt="Himalayan Kitchen Logo"
@@ -112,7 +112,7 @@ export default function Navbar() {
 
         <button
           onClick={() => setIsOpen((prev) => !prev)}
-          className="inline-flex  lg:hidden absolute top-8 right-4 ml-auto text-white"
+          className="inline-flex  lg:hidden absolute top-10 md:top-8 right-4 ml-auto text-white"
           aria-label="Menu Mobile Button"
         >
           <svg
