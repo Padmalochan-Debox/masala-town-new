@@ -45,11 +45,12 @@ const Catering = () => {
               enjoying your event.`}
               </p>
               <div className="pt-4">
-                <Link href={"/#contact"}>
-                  <button className="hover:bg-white/80 bg-black hover:text-black text-white border-2 font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
-                    Contact Now
-                  </button>
-                </Link>
+                <h2 className="text-xl text-primeBeige font-bold">
+                  Contact us at :{" "}
+                  <Link href="tel:+61 08 9848 1665" className="hover:underline">
+                    +61 08 9848 1665
+                  </Link>
+                </h2>
               </div>
             </div>
           </div>

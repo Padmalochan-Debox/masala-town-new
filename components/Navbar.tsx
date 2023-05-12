@@ -80,15 +80,29 @@ export default function Navbar() {
               {navigation.map((navItem) => (
                 <Link key={navItem.name} href={navItem.href}>
                   <span
-                    className={`text-white hover:text-tertiary text-lg cursor-pointer font-bold duration-300 transition-colors hover:text-primeYellow`}
+                    className={`text-white hover:text-primeBeige text-lg cursor-pointer font-bold duration-300 transition-colors hover:text-primeYellow`}
                   >
                     {navItem.name}
                   </span>
                 </Link>
               ))}
-              <Link href={"/"} target={"_blank"}>
-                <button className="bg-black hover:bg-white/80 text-white hover:text-black border font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
+              <Link
+                href={"https://masalatown.com.au/order-now"}
+                target={"_blank"}
+              >
+                {/* <button className="bg-black hover:bg-white/80 text-white hover:text-black border font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
                   Order Now
+                </button> */}
+                <button className="relative block mx-auto group  cursor-pointer w-fit">
+                  <span
+                    className={`absolute inset-0 transition-transform group-hover:translate-x-1 group-hover:translate-y-1 bg-primeBeige  translate-y-0 translate-x-0 rounded-md`}
+                  ></span>
+
+                  <span
+                    className={`relative inline-block px-3 py-1.5 text-lg  font-bold tracking-widest text-white border border-current group-active:text-opacity-75 rounded-md bg-black`}
+                  >
+                    Order Now
+                  </span>
                 </button>
               </Link>
             </div>
@@ -147,9 +161,20 @@ export default function Navbar() {
                 <span onClick={() => setIsOpen(false)}>{link.name}</span>
               </Link>
             ))}
-            <Link href={"/"}>
-              <button className="text-lg font-bold hover:bg-white/80 hover:text-black px-4 py-1.5 rounded-md border border-white">
+            <Link href={"https://masalatown.com.au/order-now"}>
+              {/* <button className="text-lg font-bold hover:bg-white/80 hover:text-black px-4 py-1.5 rounded-md border border-white">
                 Order Online
+              </button> */}
+              <button className="relative block mx-auto group  cursor-pointer w-fit">
+                <span
+                  className={`absolute inset-0 transition-transform group-hover:translate-x-1 group-hover:translate-y-1 bg-primeBeige  translate-y-0 translate-x-0 rounded-md`}
+                ></span>
+
+                <span
+                  className={`relative inline-block px-3 py-1.5 text-lg  font-bold tracking-widest text-white border border-current group-active:text-opacity-75 rounded-md bg-black`}
+                >
+                  Order Now
+                </span>
               </button>
             </Link>
           </ul>

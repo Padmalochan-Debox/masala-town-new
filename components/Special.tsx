@@ -73,7 +73,7 @@ const Special = () => {
                   <p className="text-sm">{el.desc}</p>
                 </div>
               </div>
-              <div className="flex flex-col justify-center rounded-lg p-2 sm:max-w-xs border-2 border-white">
+              <div className="flex flex-col justify-center rounded-lg p-2 sm:max-w-xs border-2 border-white hover:border-primeBeige">
                 <Image
                   src={el.img}
                   alt={el.title}
@@ -84,7 +84,7 @@ const Special = () => {
           ))}
         </div>
         <h2
-          className={`text-center sm:text-xl md:text-2xl lg:text-4xl text-white ${pangolin.className}`}
+          className={`text-center sm:text-xl md:text-2xl lg:text-4xl text-primeBeige ${pangolin.className}`}
         >
           * We use boneless and skinless Chicken
         </h2>
@@ -129,7 +129,7 @@ const Special = () => {
             ))}
           </Swiper>
           <h2
-            className={`text-3xl text-white text-center pt-4 ${morgan.className}`}
+            className={`text-3xl text-primeBeige text-center pt-4 ${morgan.className}`}
           >
             * We use boneless and skinless Chicken
           </h2>

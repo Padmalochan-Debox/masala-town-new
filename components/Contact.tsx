@@ -195,19 +195,30 @@ const Contact = () => {
                 </div>
               </div>
               <div className="mt-10">
-                {/* <button
-                  type="submit"
-                  onClick={handleSubmit}
-                  className="block mx-auto rounded-md bg-white hover:bg-tertiary text-black px-6 py-2 text-center font-semibold transition duration-300  "
-                >
-                  {`Submit`}
-                </button> */}
+                {/* <div className="relative">
+                  <button
+                    type="submit"
+                    onClick={handleSubmit}
+                    className="block mx-auto hover:bg-white/80 bg-black  text-center hover:text-black text-white border font-bold px-5 py-1.5 rounded-md transition-colors duration-150"
+                    // hover:shadow-[0px_0px_15px_14px_rgb(255,255,255,0.3)]
+                  >
+                    {`Submit`}
+                  </button>
+                </div> */}
                 <button
                   type="submit"
                   onClick={handleSubmit}
-                  className="block mx-auto  hover:bg-white/80 bg-black  text-center hover:text-black text-white border font-bold px-5 py-1.5 rounded-md transition-colors duration-300"
+                  className="relative block mx-auto group  cursor-pointer w-fit"
                 >
-                  {`Submit`}
+                  <span
+                    className={`absolute inset-0 transition-transform group-hover:translate-x-1 group-hover:translate-y-1 bg-primeBeige  translate-y-0 translate-x-0 rounded-md`}
+                  ></span>
+
+                  <span
+                    className={`relative inline-block px-5 py-2 text-sm font-bold tracking-widest text-white border border-current group-active:text-opacity-75 rounded-md bg-black`}
+                  >
+                    Submit
+                  </span>
                 </button>
               </div>
             </form>

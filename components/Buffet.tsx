@@ -65,10 +65,34 @@ const Buffet = () => {
               experience.`}
             </p>
             <div className="pt-4">
-              <Link href={"/#contact"}>
-                <button className="hover:bg-white/80 bg-black hover:text-black text-white border-2 font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
-                  Contact Now
-                </button>
+              <Link
+                target="_blank"
+                href={"https://goo.gl/maps/cwCA87twgTSXsS2i7"}
+              >
+                <div className="flex">
+                  <button className="relative inline-block group cursor-pointer w-fit">
+                    <span
+                      className={`absolute inset-0 transition-transform group-hover:translate-x-1 group-hover:translate-y-1 bg-primeBeige  translate-y-0 translate-x-0 rounded-md`}
+                    ></span>
+
+                    <span
+                      className={`relative inline-block px-2 py-2 text-sm font-bold tracking-widest text-white border border-current group-active:text-opacity-75 rounded-md bg-black`}
+                    >
+                      <span className="flex justify-center items-center gap-2 ">
+                        <span>
+                          <Image
+                            src={"/assets/send.png"}
+                            alt=""
+                            width={20}
+                            height={20}
+                            className="invert group-hover/item:invert-0"
+                          />
+                        </span>
+                        <span>Get Direction</span>
+                      </span>
+                    </span>
+                  </button>
+                </div>
               </Link>
             </div>
           </div>
