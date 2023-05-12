@@ -11,9 +11,9 @@ const Footer = () => {
         <Icon />
       </div> */}
       <div className="grid md:grid-cols-3 grid-cols-1 max-w-6xl mx-auto  gap-10 pt-8 w-11/12 ">
-        <div className="text-center md:text-left">
+        <div className="text-center ">
           <h2 className={`pb-4 text-2xl md:text-4xl ${stan.className}`}>
-            Get Direction{" "}
+            Get Directions{" "}
           </h2>
           <Link
             target={"_blank"}
@@ -26,7 +26,7 @@ const Footer = () => {
             </h2>
           </Link>
         </div>
-        <div className=" text-center md:text-left">
+        <div className=" text-center ">
           <h2 className={`pb-4 text-2xl md:text-4xl ${stan.className}`}>
             Operational Hours
           </h2>
@@ -35,12 +35,12 @@ const Footer = () => {
           <h2>Lunch 11:30 AM to 2:30 PM</h2>
           <h2> Dinner 5:30 PM to 9.30 PM</h2>
         </div>
-        <div className="text-center md:text-left">
+        <div className="text-center">
           <h2 className={`pb-4 text-2xl md:text-4xl ${stan.className}`}>
             Reach Us
           </h2>
-          <div>
-            <div className="text-sm flex md:justify-start justify-center items-center gap-2">
+          <div className="">
+            <div className="text-sm flex justify-center items-center gap-2">
               <div>
                 <svg
                   width="24"
@@ -57,7 +57,7 @@ const Footer = () => {
                 +61 08 9848 1665
               </Link>
             </div>
-            <div className="text-sm flex md:justify-start justify-center items-center gap-2 py-2">
+            <div className="text-sm flex justify-center items-center gap-2 py-2">
               <div>
                 <svg
                   width="24"
@@ -78,10 +78,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          {/* <h2 className={`md:text-left text-center py-4 font-bold text-lg`}>
-            Get Social With Us!
-          </h2> */}
-          <div className="flex md:justify-start justify-center md:items-center gap-4 mt-1 ">
+          <div className="flex justify-center md:items-center gap-4 mt-1 ">
             <div>
               <Link
                 href={"https://www.facebook.com/masalatown8"}
@@ -89,8 +86,8 @@ const Footer = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="22"
+                  height="22"
                   viewBox="0 0 24 24"
                   className="fill-white hover:fill-primeBeige transition duration-150 ease-in"
                 >
@@ -107,8 +104,8 @@ const Footer = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="22"
+                  height="22"
                   viewBox="0 0 24 24"
                   className="fill-white hover:fill-primeBeige transition duration-150 ease-in"
                 >

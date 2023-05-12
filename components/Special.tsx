@@ -108,15 +108,15 @@ const Special = () => {
             {specialData.map((el) => (
               <SwiperSlide key={el.title}>
                 <div className="relative">
-                  <div className="absolute w-full bottom-0 left-0 h-[38%] bg-black/70 rounded-lg transition-all duration-300  grid place-items-center ">
-                    <div className="border text-white border-white/70 m-2 p-2 rounded-lg">
+                  <div className="absolute w-full bottom-0 left-0 h-[38%] bg-white/90 rounded-lg transition-all duration-300  grid place-items-center ">
+                    <div className="border text-black border-primeBeige m-2 p-2 rounded-lg">
                       <h2 className={`text-base font-bold `}>{el.title}</h2>
-                      <p className="text-xs">{el.desc}</p>
+                      <p className="text-sm">{el.desc}</p>
                     </div>
                   </div>
                   <div
                     key={el.title}
-                    className=" rounded-lg p-2 sm:max-w-xs border border-white"
+                    className=" rounded-lg p-2 sm:max-w-xs border border-primeBeige"
                   >
                     <Image
                       src={el.img}
@@ -129,7 +129,7 @@ const Special = () => {
             ))}
           </Swiper>
           <h2
-            className={`text-3xl text-primeBeige pl-4 pt-4 ${morgan.className}`}
+            className={`text-3xl text-primeBeige pl-4 pt-4 ${pangolin.className}`}
           >
             * We use boneless and skinless Chicken
           </h2>

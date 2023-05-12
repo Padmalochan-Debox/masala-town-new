@@ -88,7 +88,7 @@ const Buffet = () => {
                             className="invert group-hover/item:invert-0"
                           />
                         </span>
-                        <span>Get Direction</span>
+                        <span>Get Directions</span>
                       </span>
                     </span>
                   </button>

@@ -12,7 +12,7 @@ const About = () => {
         id="about"
         className=" h-full scroll-mt-44 max-w-full mx-auto w-11/12"
       >
-        <div className="grid md:grid-cols-2 grid-cols-1 md:gap-12 gap-2 group/item">
+        <div className="grid md:grid-cols-2 grid-cols-1 md:gap-8 lg:gap-12 gap-2 group/item">
           <div className="px-2 bg-lightR md:py-8 py-3 rounded-3xl text-white grid place-items-center">
             <div
               data-aos="fade-right"
@@ -41,15 +41,11 @@ const About = () => {
             </div> */}
             </div>
           </div>
-          <div
-            data-aos="fade-left"
-            data-aos-duration="1500"
-            className="p-2 h-full w-auto"
-          >
+          <div data-aos="fade-left" data-aos-duration="1500" className="p-2">
             <Image
               src={aboutImg}
               alt=""
-              className="rounded-md h-full w-auto object-cover"
+              className="rounded-md h-full w-full object-cover"
             />
           </div>
         </div>
