@@ -17,7 +17,7 @@ const Footer = () => {
           </h2>
           <Link
             target={"_blank"}
-            href={"https://goo.gl/maps/cwCA87twgTSXsS2i7"}
+            href={"https://maps.app.goo.gl/bKwUK2LdCGvFWdG9A"}
           >
             <h2 className="hover:underline">
               {" "}

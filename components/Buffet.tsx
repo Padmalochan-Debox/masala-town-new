@@ -67,7 +67,7 @@ const Buffet = () => {
             <div className="pt-4">
               <Link
                 target="_blank"
-                href={"https://goo.gl/maps/cwCA87twgTSXsS2i7"}
+                href={"https://maps.app.goo.gl/bKwUK2LdCGvFWdG9A"}
               >
                 <div className="flex">
                   <button className="relative inline-block group cursor-pointer w-fit">

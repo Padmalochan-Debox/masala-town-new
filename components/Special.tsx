@@ -109,7 +109,7 @@ const Special = () => {
               <SwiperSlide key={el.title}>
                 <div className="relative">
                   <div className="absolute w-full bottom-0 left-0 h-[38%] bg-white/90 rounded-lg transition-all duration-300  grid place-items-center ">
-                    <div className="border text-black border-primeBeige m-2 p-2 rounded-lg">
+                    <div className=" text-black  px-5 rounded-lg">
                       <h2 className={`text-base font-bold `}>{el.title}</h2>
                       <p className="text-sm">{el.desc}</p>
                     </div>
