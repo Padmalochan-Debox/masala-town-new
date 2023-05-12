@@ -60,7 +60,7 @@ export default function Navbar() {
               <Link href="/">
                 <div className="cursor-pointer">
                   <span className="sr-only">Himalayan Kitchen</span>
-                  <div className="hover:scale-110 duration-300 transition-transform px-4 py- md:py-0">
+                  <div className="hover:scale-110 duration-300 transition-transform">
                     {" "}
                     <Image
                       priority
