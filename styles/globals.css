@@ -51,7 +51,7 @@ body {
 /* Firefox */
 * {
   scrollbar-width: auto;
-  scrollbar-color: white red;
+  scrollbar-color: white yellow;
 }
 
 /* Chrome, Edge, and Safari */
@@ -64,7 +64,7 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: red;
+  background-color: black;
 }
 
 /* react phone input  */
