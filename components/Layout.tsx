@@ -28,7 +28,9 @@ function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-[100vh] ">
       <Head>
-        <title>Masala Town - Multi Cuisine Dining & Catering</title>
+        <title>
+          Masala Town - Multi Cuisine Dining & Catering, Gosnells, Perth
+        </title>
 
         <meta name="description" content="Multi Cuisine Dining & Catering" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -20,7 +20,7 @@ const Catering = () => {
           >
             <Image
               src={catImg}
-              alt=""
+              alt="Msala Town catering service"
               className="rounded-md h-full w-full object-cover"
             />
           </div>

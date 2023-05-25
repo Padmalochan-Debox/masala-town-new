@@ -61,12 +61,12 @@ const Special = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
-          className="hidden sm:flex flex-wrap justify-center gap-12 py-8 "
+          className="hidden sm:flex flex-wrap justify-center gap-4 md:gap-8 xl:gap-12 py-8 px-6 "
         >
           {specialData.map((el) => (
             <div key={el.title} className="relative group/item">
               <div
-                className={`absolute w-full bottom-0 left-0 h-[40%] bg-white/80 backdrop-blur-lg group-hover/item:-translate-x-8 group-hover/item:-translate-y-8 rounded-lg transition-all duration-300 ease-linear grid place-items-center invisible group-hover/item:visible  `}
+                className={`absolute w-full bottom-0 left-0 h-[40%] bg-white/80 backdrop-blur-lg group-hover/item:-translate-x-6 group-hover/item:-translate-y-6 rounded-lg transition-all duration-300 ease-linear grid place-items-center invisible group-hover/item:visible  `}
               >
                 <div className="px-4">
                   <h2 className={`text-lg ${stan.className}`}>{el.title}</h2>

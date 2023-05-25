@@ -86,13 +86,10 @@ export default function Navbar() {
                   </span>
                 </Link>
               ))}
-              <Link
+              {/* <Link
                 href={"https://masalatown.com.au/order-now"}
                 target={"_blank"}
               >
-                {/* <button className="bg-black hover:bg-white/80 text-white hover:text-black border font-bold px-4 py-1.5 rounded-md transition-colors duration-200">
-                  Order Now
-                </button> */}
                 <button className="relative block mx-auto group  cursor-pointer w-fit">
                   <span
                     className={`absolute inset-0 transition-transform group-hover:translate-x-1 group-hover:translate-y-1 bg-primeBeige  translate-y-0 translate-x-0 rounded-md`}
@@ -104,7 +101,7 @@ export default function Navbar() {
                     Order Now
                   </span>
                 </button>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -161,10 +158,7 @@ export default function Navbar() {
                 <span onClick={() => setIsOpen(false)}>{link.name}</span>
               </Link>
             ))}
-            <Link href={"https://masalatown.com.au/order-now"}>
-              {/* <button className="text-lg font-bold hover:bg-white/80 hover:text-black px-4 py-1.5 rounded-md border border-white">
-                Order Online
-              </button> */}
+            {/* <Link href={"https://masalatown.com.au/order-now"}>
               <button className="relative block mx-auto group  cursor-pointer w-fit">
                 <span
                   className={`absolute inset-0 transition-transform group-hover:translate-x-1 group-hover:translate-y-1 bg-primeBeige  translate-y-0 translate-x-0 rounded-md`}
@@ -176,7 +170,7 @@ export default function Navbar() {
                   Order Now
                 </span>
               </button>
-            </Link>
+            </Link> */}
           </ul>
         </div>
       </nav>

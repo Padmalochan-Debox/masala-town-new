@@ -82,7 +82,7 @@ const Buffet = () => {
                         <span>
                           <Image
                             src={"/assets/send.png"}
-                            alt=""
+                            alt="Msala Town buffet service"
                             width={20}
                             height={20}
                             className="invert group-hover/item:invert-0"

@@ -44,7 +44,7 @@ const About = () => {
           <div data-aos="fade-left" data-aos-duration="1500" className="p-2">
             <Image
               src={aboutImg}
-              alt=""
+              alt="About Masala Town"
               className="rounded-md h-full w-full object-cover"
             />
           </div>

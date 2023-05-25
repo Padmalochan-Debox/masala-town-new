@@ -4,7 +4,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import Image from "next/image";
 import { morgan, pangolin, stan } from "@/pages/_app";
-import bufImg from "../public/assets/contact.png";
+import contactImg from "../public/assets/contact.png";
 const Contact = () => {
   const [contact, setContact] = useState({
     name: "",
@@ -70,8 +70,8 @@ const Contact = () => {
           className="md:col-span-7 col-span-1 md:order-none order-1"
         >
           <Image
-            src={bufImg}
-            alt="Buffet of Masala town"
+            src={contactImg}
+            alt="Telephone covered by masala to contact masala town for events"
             className="h-full w-full object-cover"
           />
         </div>
