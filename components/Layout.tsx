@@ -31,10 +31,8 @@ function Layout({ children }: { children: React.ReactNode }) {
         <title>
           Masala Town - Multi Cuisine Dining & Catering, Gosnells, Perth
         </title>
-
         <meta name="description" content="Multi Cuisine Dining & Catering" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <link rel="icon" href="/Favicon.png" /> */}
+        <link rel="icon" href="/Masala_Favicon.png" />
       </Head>
       {loading ? (
         <div className="w-screen h-screen fixed top-0 left-0 grid place-items-center transition-all visible  z-50">
