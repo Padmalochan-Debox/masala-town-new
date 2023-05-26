@@ -16,7 +16,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   // Configuring Mail Data
   const mailData = {
     from: process.env.MAIL_USER,
-    to: process.env.MAIL_USER,
+    to: "samk6112@gmail.com",
     subject: `Inquiry from ${req.body.name}`,
     html: `<p>Hello</p>
     <p>${req.body.name} has sent an inquiry for catering!</p>
