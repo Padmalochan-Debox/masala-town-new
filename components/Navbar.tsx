@@ -8,11 +8,11 @@ import Link from "next/link";
 import logo from "../public/assets/Masala-Town-Logo_1.png";
 
 const navigation = [
+  { name: "Order Online", href: "https://masala-town.square.site/" },
   { name: "About Us", href: "/#about" },
   { name: "Our Specialities", href: "#special" },
   { name: "Catering", href: "#catering" },
   { name: "Buffet", href: "#buffet" },
-  // { name: "Review", href: "#review" },
   { name: "Contact Us", href: "#contact" },
 ];
 export default function Navbar() {
