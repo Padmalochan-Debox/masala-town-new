@@ -31,7 +31,7 @@ const specialData = [
   },
   {
     title: "Desserts ",
-    desc: " A delicious start with special mouth watering flavors like .",
+    desc: " End your meal with authentic Indian sweet treats that delight your tastebuds!.",
     img: I4,
   },
 ];
