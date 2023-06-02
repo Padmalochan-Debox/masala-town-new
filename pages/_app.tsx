@@ -5,7 +5,8 @@ import Link from "next/link";
 import localFont from "next/font/local";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import Head from "next/head";
+import Script from "next/script";
 import {
   Rubik_Pixels,
   Pangolin,
@@ -50,8 +51,21 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className={raleway.className}>
       <Layout>
+        <Head>
+          {/* Google Tag Manager */}
+          <Script
+            id="google-tags"
+            strategy="lazyOnload"
+            src="https://www.googletagmanager.com/gtag/js?id=G-RFMM690EMR"
+          />
+          <Script id="google-tags-2" strategy="lazyOnload">
+            {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RFMM690EMR');`}
+          </Script>
+        </Head>
         <Component {...pageProps} />
-   
       </Layout>
     </div>
   );
