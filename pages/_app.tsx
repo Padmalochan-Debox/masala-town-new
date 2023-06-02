@@ -52,8 +52,11 @@ export default function App({ Component, pageProps }: AppProps) {
     <div className={raleway.className}>
       <Layout>
         <Head>
-          {/* Google Tag Manager */}
-          <Script
+          <title>MASALA-TOWN</title>
+        </Head>
+
+         {/* Google Tag Manager */}
+         <Script
             id="google-tags"
             strategy="lazyOnload"
             src="https://www.googletagmanager.com/gtag/js?id=G-RFMM690EMR"
@@ -64,7 +67,7 @@ export default function App({ Component, pageProps }: AppProps) {
           gtag('js', new Date());
           gtag('config', 'G-RFMM690EMR');`}
           </Script>
-        </Head>
+
         <Component {...pageProps} />
         <Link href="https://masala-town.square.site" target={"_blank"}>
           <div className="fixed bottom-5 right-5 md:bottom-8 md:right-8 z-10">
