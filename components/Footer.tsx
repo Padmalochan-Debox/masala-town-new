@@ -71,10 +71,10 @@ const Footer = () => {
                 </svg>
               </div>
               <Link
-                href="mailto:masalatown8@gmail.com"
+                href="mailto:masalatowngosnells@gmail.com"
                 className="hover:underline"
               >
-                masalatown8@gmail.com
+                masalatowngosnells@gmail.com
               </Link>
             </div>
           </div>
