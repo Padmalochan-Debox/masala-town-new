@@ -66,6 +66,20 @@ export default function App({ Component, pageProps }: AppProps) {
           </Script>
         </Head>
         <Component {...pageProps} />
+        <Link href="https://masala-town.square.site" target={"_blank"}>
+          <div className="fixed bottom-5 right-5 md:bottom-8 md:right-8 z-10">
+            <button className="relative block mx-auto group  cursor-pointer w-fit">
+              <span
+                className={`absolute inset-0 transition-transform group-hover:translate-x-1 group-hover:translate-y-1 bg-primeBeige  translate-y-0 translate-x-0 rounded-md`}
+              ></span>
+              <span
+                className={`relative inline-block px-3 py-1.5 text-lg font-bold tracking-widest text-white border border-current group-active:text-opacity-75 rounded-md bg-black`}
+              >
+                Order Now
+              </span>
+            </button>
+          </div>
+        </Link>
       </Layout>
     </div>
   );
