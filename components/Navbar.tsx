@@ -8,7 +8,6 @@ import Link from "next/link";
 import logo from "../public/assets/Masala-Town-Logo_1.png";
 
 const navigation = [
-  { name: "Order Online", href: "https://masala-town.square.site/" },
   { name: "About Us", href: "/#about" },
   { name: "Our Specialities", href: "#special" },
   { name: "Catering", href: "#catering" },
@@ -86,10 +85,7 @@ export default function Navbar() {
                   </span>
                 </Link>
               ))}
-              {/* <Link
-                href={"https://masalatown.com.au/order-now"}
-                target={"_blank"}
-              >
+              <Link href={"https://masala-town.square.site/"} target={"_blank"}>
                 <button className="relative block mx-auto group  cursor-pointer w-fit">
                   <span
                     className={`absolute inset-0 transition-transform group-hover:translate-x-1 group-hover:translate-y-1 bg-primeBeige  translate-y-0 translate-x-0 rounded-md`}
@@ -101,7 +97,7 @@ export default function Navbar() {
                     Order Now
                   </span>
                 </button>
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>
@@ -158,7 +154,7 @@ export default function Navbar() {
                 <span onClick={() => setIsOpen(false)}>{link.name}</span>
               </Link>
             ))}
-            {/* <Link href={"https://masalatown.com.au/order-now"}>
+            <Link href={"https://masala-town.square.site/"}>
               <button className="relative block mx-auto group  cursor-pointer w-fit">
                 <span
                   className={`absolute inset-0 transition-transform group-hover:translate-x-1 group-hover:translate-y-1 bg-primeBeige  translate-y-0 translate-x-0 rounded-md`}
@@ -170,7 +166,7 @@ export default function Navbar() {
                   Order Now
                 </span>
               </button>
-            </Link> */}
+            </Link>
           </ul>
         </div>
       </nav>
