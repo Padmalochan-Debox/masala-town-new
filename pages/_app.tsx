@@ -52,7 +52,12 @@ export default function App({ Component, pageProps }: AppProps) {
     <div className={raleway.className}>
       <Layout>
         <Head>
-          <title>MASALA-TOWN</title>
+          <title>Masala Town - Authentic Indian & Sri-Lankan Food, in Gosnells, Perth</title>
+          <meta
+          name="description"
+          content="Relish the authentic taste of South Indian food. Located in the vibrant suburb of Gosnells, Perth, our menu boasts a wide range of dishes. From traditional curries to our signature biryanis, we've got everything you need to satisfy your cravings."
+        />
+         {/* <link rel="icon" href="" /> */}
         </Head>
 
          {/* Google Tag Manager */}
