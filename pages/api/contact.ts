@@ -31,7 +31,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     <p> Masala Town</p>;
     `,
   };
-  console.log(req.body);
+
   // Sending the email, followed by status code.
   transporter.sendMail(mailData, function (err: any, info: any) {
     if (err) console.log(err);

@@ -67,7 +67,7 @@ export default function Navbar() {
                       width={150}
                       // className="brightness-0 invert"
                       // className="lg:w-52 w-40 h-20"
-                      alt="Himalayan Kitchen Logo"
+                      alt="Masala Town Logo"
                       src={logo}
                     />
                   </div>

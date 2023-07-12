@@ -50,7 +50,6 @@ const Contact = () => {
           { duration: 3000 }
         );
       } catch (e) {
-        console.log(e);
         toast.error("Something went wrong. Please try again later.");
       }
     }

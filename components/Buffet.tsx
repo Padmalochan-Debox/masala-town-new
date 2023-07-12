@@ -40,7 +40,7 @@ const Buffet = () => {
       <div className="absolute w-full h-full inset-0 overflow-hidden opacity-20">
         <Image
           src={bgPat}
-          alt="Pattern"
+          alt="Pattern Image"
           layout="fill"
           className="object-cover"
         />

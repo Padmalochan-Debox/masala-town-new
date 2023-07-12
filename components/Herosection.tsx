@@ -18,22 +18,22 @@ import { useRef } from "react";
 const homeData = [
   {
     img: webBanner,
-    alt: "Home slider1",
+    alt: "Lunch bento Box Banner(New Menu Everyday)",
   },
   {
     img: webBanner2,
-    alt: "Home Slider2",
+    alt: "Banana leaf lunch buffet",
   },
 ];
 
 const mobile = [
   {
     img: mobileBanner1,
-    alt: "Home slider1",
+    alt: "Lunch bento Box Banner(New Menu Everyday)",
   },
   {
     img: mobileBanner2,
-    alt: "Home Slider2",
+    alt: "Home Slider2Banana leaf lunch buffet",
   },
 ];
 

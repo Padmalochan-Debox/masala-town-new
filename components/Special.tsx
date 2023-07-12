@@ -76,7 +76,7 @@ const Special = () => {
               <div className="flex flex-col justify-center rounded-lg p-2 sm:max-w-xs border-2 border-white hover:border-primeBeige">
                 <Image
                   src={el.img}
-                  alt={el.title}
+                  alt={el.title + "Image"}
                   className="rounded-lg h-96 w-full"
                 />
               </div>
@@ -120,7 +120,7 @@ const Special = () => {
                   >
                     <Image
                       src={el.img}
-                      alt={el.title}
+                      alt={el.title + "Image"}
                       className="rounded-lg h-96 w-full"
                     />
                   </div>

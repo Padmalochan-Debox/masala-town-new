@@ -38,7 +38,7 @@ const Testimonials = () => {
       <div className="absolute  w-full h-full top-10 left-0">
         <Image
           src={aboutImg}
-          alt=""
+          alt="Testimonal Image"
           className="h-full w-full object-fill rounded-xl opacity-20"
         />
       </div>
