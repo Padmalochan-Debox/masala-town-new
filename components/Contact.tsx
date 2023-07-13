@@ -4,7 +4,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import Image from "next/image";
 import { morgan, pangolin, stan } from "@/pages/_app";
-import contactImg from "../public/assets/contact.png";
+import contactImg from "../public/assets/contact.webp";
 const Contact = () => {
   const [contact, setContact] = useState({
     name: "",

@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import Router from "next/router";
 import Link from "next/link";
 
-import logo from "../public/assets/Masala-Town-Logo_1.png";
+import logo from "../public/assets/Masala-Town-Logo_1.webp";
 
 const navigation = [
   { name: "About Us", href: "/#about" },

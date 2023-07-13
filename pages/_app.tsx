@@ -67,7 +67,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <meta property="og:url" content={`https://masalatown.au/`} />
           <meta
             property="og:image"
-            content={"../public/assets/WebBanner3.jpg"}
+            content={"../public/assets/WebBanner4.webp"}
           />
           <meta property="og:type" content="Restaurants" />
           <meta
@@ -86,7 +86,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <meta property="twitter:url" content={`https://masalatown.au/`} />
           <meta
             property="twitter:image"
-            content={"../public/assets/WebBanner3.jpg"}
+            content={"../public/assets/WebBanner4.webp"}
           />
         </Head>
 

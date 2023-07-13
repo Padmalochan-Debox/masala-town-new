@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 
-import catImg from "../public/assets/Catering.jpg";
-import { morgan, stan } from "@/pages/_app";
+import catImg from "../public/assets/Catering.webp";
+import { stan } from "@/pages/_app";
 import Link from "next/link";
 
 const Catering = () => {

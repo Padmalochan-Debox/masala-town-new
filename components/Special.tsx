@@ -5,10 +5,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Autoplay } from "swiper";
 
-import I1 from "../public/assets/Curry.jpg";
-import I2 from "../public/assets/Appetizer.jpg";
-import I3 from "../public/assets/Biryani.jpg";
-import I4 from "../public/assets/Desserts.jpg";
+import I1 from "../public/assets/Curry.webp";
+import I2 from "../public/assets/Appetizer.webp";
+import I3 from "../public/assets/Biryani.webp";
+import I4 from "../public/assets/Desserts.webp";
 import bgPat from "../public/assets/Pattern.svg";
 
 import { morgan, pangolin, stan } from "@/pages/_app";

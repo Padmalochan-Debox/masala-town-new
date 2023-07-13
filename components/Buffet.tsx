@@ -1,35 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-import I1 from "../public/assets/I1.jpg";
-
-import bufImg from "../public/assets/Buffet.jpg";
-import { morgan, stan } from "@/pages/_app";
+import bufImg from "../public/assets/Buffet.webp";
+import { stan } from "@/pages/_app";
 import bgPat from "../public/assets/Pattern.svg";
 import Link from "next/link";
-
-const specialData = [
-  {
-    title: "Drinks",
-    desc: "Each sip of these will be a refreshing treat.",
-    img: I1,
-  },
-  {
-    title: "Curries",
-    desc: "Made with flavorful spices and fresh herbs to give your tastebuds an authentic taste.",
-    img: I1,
-  },
-  {
-    title: "Biryani",
-    desc: "Layered dish that is a blend of authentic spices and fragrant rice.",
-    img: I1,
-  },
-  {
-    title: "Appetizers ",
-    desc: " A delicious start with special mouth watering flavors like tandoor.",
-    img: I1,
-  },
-];
 
 const Buffet = () => {
   return (

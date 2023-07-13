@@ -1,8 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import logo from "../public/assets/Logo.svg";
-import { morgan, stan } from "@/pages/_app";
+import { stan } from "@/pages/_app";
 
 const Footer = () => {
   return (
@@ -118,7 +116,6 @@ const Footer = () => {
       </div>
       <hr className="border-t-2 border-white mt-4 max-w-6xl mx-auto" />
       <div className="grid place-items-center py-8 text-center px-4  ">
-        {/* <Image src={logo} alt={""} className="py-2" /> */}
         <h2 className="text-base md:text-lg pb-2 divide-x">
           <span>
             Copyright © <span className="px-2">{new Date().getFullYear()}</span>

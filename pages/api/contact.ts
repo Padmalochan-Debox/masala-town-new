@@ -1,6 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
   // Initializing nodemailer with settings
   let nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
@@ -31,13 +34,31 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     <p> Masala Town</p>;
     `,
   };
-
-  // Sending the email, followed by status code.
-  transporter.sendMail(mailData, function (err: any, info: any) {
-    if (err) console.log(err);
-    else console.log(info);
+  await new Promise((resolve, reject) => {
+    transporter.sendMail(mailData, (err: any, info: any) => {
+      if (err) {
+        reject(err);
+        res.status(500).json({
+          success: "false",
+          error: err,
+        });
+      } else {
+        resolve(info);
+        res.status(200).json({
+          success: "true",
+          info,
+          error: err,
+        });
+      }
+    });
   });
 
-  res.status(200);
-  res.send(null);
+  // Sending the email, followed by status code.
+  // transporter.sendMail(mailData, function (err: any, info: any) {
+  //   if (err) console.log(err);
+  //   else console.log(info);
+  // });
+
+  // res.status(200);
+  // res.send(null);
 }

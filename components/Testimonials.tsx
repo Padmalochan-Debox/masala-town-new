@@ -8,7 +8,7 @@ import "swiper/css/free-mode";
 import { EffectCoverflow, FreeMode, Pagination, Autoplay } from "swiper";
 import { morgan } from "@/pages/_app";
 import Image from "next/image";
-import aboutImg from "../public/assets/mAbout.jpg";
+import img from "../public/assets/mAbout.webp";
 
 const testimonials = [
   {
@@ -37,7 +37,7 @@ const Testimonials = () => {
     <div className="bg-black py-14 relative">
       <div className="absolute  w-full h-full top-10 left-0">
         <Image
-          src={aboutImg}
+          src={img}
           alt="Testimonal Image"
           className="h-full w-full object-fill rounded-xl opacity-20"
         />
@@ -47,7 +47,7 @@ const Testimonials = () => {
           <div className="grid md:grid-cols-12 grid-cols-1 max-w-full mx-auto gap-2 md:gap-4">
             <div className="md:col-span-4 col-span-1 bg-tertiar text-white relative h-full w-full">
               {/* <Image
-                src={aboutImg}
+                src={img}
                 alt=""
                 className="h-full w-full object-cover rounded-xl opacity-20"
               /> */}

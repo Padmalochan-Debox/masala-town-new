@@ -1,9 +1,8 @@
 import Image from "next/image";
 import React from "react";
 
-import aboutImg from "../public/assets/mAbout.jpg";
-import { morgan, stan } from "@/pages/_app";
-import { pangolin } from "@/pages/_app";
+import aboutImg from "../public/assets/mAbout.webp";
+import { stan } from "@/pages/_app";
 
 const About = () => {
   return (
@@ -34,11 +33,6 @@ const About = () => {
               some great company. Whether you're dining in, taking out, or
               ordering online - your taste buds will thank you.`}
               </p>
-              {/* <div className="pt-4">
-              <button className="px-4 py-2 bg-tertiary text-black font-bold text-base rounded-lg">
-                Oreder Now
-              </button>
-            </div> */}
             </div>
           </div>
           <div data-aos="fade-left" data-aos-duration="1500" className="p-2">
