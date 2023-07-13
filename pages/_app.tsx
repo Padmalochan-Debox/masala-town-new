@@ -64,13 +64,10 @@ export default function App({ Component, pageProps }: AppProps) {
             property="og:title"
             content={`Masala Town - Authentic Indian & Sri-Lankan Food, in Gosnells, Perth`}
           />
-          <meta
-            property="og:url"
-            content={`${process.env.NEXT_PUBLIC_SITE_URL}/`}
-          />
+          <meta property="og:url" content={`https://masalatown.au/`} />
           <meta
             property="og:image"
-            content={"../public/assets/MobBanner3.jpg"}
+            content={"../public/assets/WebBanner3.jpg"}
           />
           <meta property="og:type" content="Restaurants" />
           <meta
@@ -86,13 +83,10 @@ export default function App({ Component, pageProps }: AppProps) {
             property="twitter:description"
             content={`Relish the authentic taste of South Indian food. Located in the vibrant suburb of Gosnells, Perth, our menu boasts a wide range of dishes. From traditional curries to our signature biryanis, we've got everything you need to satisfy your cravings.`}
           />
-          <meta
-            property="twitter:url"
-            content={`${process.env.NEXT_PUBLIC_SITE_URL}/`}
-          />
+          <meta property="twitter:url" content={`https://masalatown.au/`} />
           <meta
             property="twitter:image"
-            content={"../public/assets/MobBanner3.jpg"}
+            content={"../public/assets/WebBanner3.jpg"}
           />
         </Head>
 
