@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://masalatown.au/
+
+# Sitemaps
+Sitemap: https://masalatown.au/sitemap.xml
