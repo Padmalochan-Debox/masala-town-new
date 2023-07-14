@@ -5,10 +5,10 @@ import Buffet from "@/components/Buffet";
 import Contact from "@/components/Contact";
 import dynamic from "next/dynamic";
 const Herosection = dynamic(() => import("../components/Herosection"), {
-  ssr: false,
+  ssr: true,
 });
 const Testimonials = dynamic(() => import("../components/Testimonials"), {
-  ssr: false,
+  ssr: true,
 });
 
 export default function Home() {
