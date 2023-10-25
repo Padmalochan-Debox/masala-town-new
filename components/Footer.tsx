@@ -122,11 +122,15 @@ const Footer = () => {
           </span>
           <span className="px-1"> All rights reserved by Masala Town</span>
         </h2>
-        <Link href="https://debox.co.in/" target="_blank" className="text-base">
+        <Link
+          href="https://www.deboxmarketing.com/"
+          target="_blank"
+          className="text-base"
+        >
           Designed and developed by{" "}
           <span className="hover:underline text-primeBeige text-sm font-bold">
             {" "}
-            Debox Consulting
+            Debox
           </span>
         </Link>
       </div>
