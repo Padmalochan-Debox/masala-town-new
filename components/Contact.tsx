@@ -3,7 +3,7 @@ import { toast, Toaster } from "react-hot-toast";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import Image from "next/image";
-import { morgan, pangolin, stan } from "@/pages/_app";
+import { stan } from "@/pages/_app";
 import contactImg from "../public/assets/contact.webp";
 const Contact = () => {
   const [contact, setContact] = useState({
@@ -72,6 +72,8 @@ const Contact = () => {
             src={contactImg}
             alt="Telephone covered by masala to contact masala town for events"
             className="h-full w-full object-cover"
+            placeholder="blur"
+            blurDataURL="LAH19;0hFyR~00ww9ao{Ga}?-59#"
           />
         </div>
         <div className="md:col-span-5 col-span-1 grid place-items-center md:order-none order-2 ">

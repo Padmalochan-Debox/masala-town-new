@@ -19,10 +19,12 @@ const homeData = [
   {
     img: webBanner,
     alt: "Lunch bento Box Banner(New Menu Everyday)",
+    blurData: "LVIp#9R8}9-RNHKhr]EMMe-Q$ja#",
   },
   {
     img: webBanner2,
     alt: "Banana leaf lunch buffet",
+    blurData: "LGLDnu^;M{#H.fJPNK=x=Yt5e[NF",
   },
 ];
 
@@ -30,10 +32,12 @@ const mobile = [
   {
     img: mobileBanner1,
     alt: "Lunch bento Box Banner(New Menu Everyday)",
+    blurData: "LHHT]E#rDj-O+b^2$_RU9G}Ak:aP",
   },
   {
     img: mobileBanner2,
     alt: "Home Slider2Banana leaf lunch buffet",
+    blurData: "LaL4GTV@wNV@?%n%nls.SbWBa$og",
   },
 ];
 
@@ -151,7 +155,7 @@ export default function HeroSection() {
           modules={[Autoplay, Navigation]}
           className="mySwiper w-full relative"
         >
-          {mobile.map((home: any) => {
+          {mobile.map((home) => {
             return (
               <SwiperSlide
                 key={home.alt}
@@ -165,6 +169,8 @@ export default function HeroSection() {
                     layout="fill"
                     alt={home.alt}
                     priority
+                    placeholder="blur"
+                    blurDataURL={home.blurData}
                   />
                 </div>
               </SwiperSlide>

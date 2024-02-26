@@ -8,13 +8,7 @@ import "aos/dist/aos.css";
 import Head from "next/head";
 import Script from "next/script";
 
-import {
-  Rubik_Pixels,
-  Pangolin,
-  Creepster,
-  Raleway,
-  Fredericka_the_Great,
-} from "next/font/google";
+import { Pangolin, Raleway } from "next/font/google";
 import { useEffect } from "react";
 // locla font
 export const morgan = localFont({
@@ -36,7 +30,7 @@ export const raleway = Raleway({
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    Aos.init({});
+    Aos.init({ once: true });
     document.addEventListener(
       "scroll",
       (e) => {

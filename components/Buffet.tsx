@@ -61,6 +61,8 @@ const Buffet = () => {
                             width={20}
                             height={20}
                             className="invert group-hover/item:invert-0"
+                            placeholder="blur"
+                            blurDataURL="LBLpX8RN00Di~p-;9JaM.8_M02Mw"
                           />
                         </span>
                         <span>Get Directions</span>

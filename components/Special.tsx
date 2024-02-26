@@ -18,21 +18,25 @@ const specialData = [
     title: "Curries",
     desc: "Authentic South Indian curries bursting with flavor & spice. From creamy butter chicken to tangy fish curry, each dish is expertly crafted.",
     img: I1,
+    blurData: "LHHwPu~AFx-o9#kqkCf,tRw|=_t6",
   },
   {
     title: "Appetizers",
     desc: "Our appetizers are the perfect way to kick off your meal. A carefully curated selection of South Indian specialties, they’re more than just a pre-meal snack.",
     img: I2,
+    blurData: "LVIX%9RktmW-DhxsV@xZ?wIUIBaK",
   },
   {
     title: "Biryanis",
     desc: "A feast for your senses. A perfect blend of fragrant rice, tender meat, & aromatic spices. After all, it’s Masala Town.",
     img: I3,
+    blurData: "LMIELZ~W_NNK=_NGt7s:AdR:IqWC",
   },
   {
     title: "Desserts ",
     desc: " End your meal with authentic Indian sweet treats that delight your tastebuds!.",
     img: I4,
+    blurData: "LIH,O}5S1KMy~AEkOAa11iEN=]s9",
   },
 ];
 
@@ -78,6 +82,8 @@ const Special = () => {
                   src={el.img}
                   alt={el.title + "Image"}
                   className="rounded-lg h-96 w-full"
+                  placeholder="blur"
+                  blurDataURL={el.blurData}
                 />
               </div>
             </div>

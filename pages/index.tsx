@@ -1,11 +1,11 @@
-import About from "@/components/About";
-import Special from "@/components/Special";
-import Catering from "@/components/Catering";
-import Buffet from "@/components/Buffet";
-import Contact from "@/components/Contact";
 import dynamic from "next/dynamic";
 const Herosection = dynamic(() => import("../components/Herosection"));
-const Testimonials = dynamic(() => import("../components/Testimonials"));
+const About = dynamic(() => import("../components/About"));
+const Special = dynamic(() => import("../components/Special"));
+const Catering = dynamic(() => import("../components/Catering"));
+const Buffet = dynamic(() => import("../components/Buffet"));
+const Contact = dynamic(() => import("../components/Contact"));
+// const Testimonials = dynamic(() => import("../components/Testimonials"));
 
 export default function Home() {
   return (

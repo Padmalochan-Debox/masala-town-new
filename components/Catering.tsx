@@ -22,6 +22,8 @@ const Catering = () => {
               src={catImg}
               alt="Msala Town catering service"
               className="rounded-md h-full w-full object-cover"
+              placeholder="blur"
+              blurDataURL="L9HAwh_20g=X0x}q~AEk#A$w5R-p"
             />
           </div>
           <div

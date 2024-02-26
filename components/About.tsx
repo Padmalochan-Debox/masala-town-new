@@ -40,6 +40,8 @@ const About = () => {
               src={aboutImg}
               alt="About Masala Town"
               className="rounded-md h-full w-full object-cover"
+              placeholder="blur"
+              blurDataURL="L7H-MT?Z009}%~soIVt700E3}?%L"
             />
           </div>
         </div>
