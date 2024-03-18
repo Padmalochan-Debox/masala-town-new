@@ -50,7 +50,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <title>{` Masala Town - Authentic Indian & Sri-Lankan Food, in Gosnells, Perth`}</title>
           <meta
             name="description"
-            content="Relish the authentic taste of South Indian food. Located in the vibrant suburb of Gosnells, Perth, our menu boasts a wide range of dishes. From traditional curries to our signature biryanis, we've got everything you need to satisfy your cravings."
+            content="Best Indian Restaurant serving Indian & Srilankan cuisines including Curries, Biryanis, Appetizer and Desserts."
           />
           <link rel="canonical" href={`https://masalatown.au/`} />
           {/* OG Tags */}
@@ -66,7 +66,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <meta property="og:type" content="Restaurants" />
           <meta
             property="og:description"
-            content={`Relish the authentic taste of South Indian food. Located in the vibrant suburb of Gosnells, Perth, our menu boasts a wide range of dishes. From traditional curries to our signature biryanis, we've got everything you need to satisfy your cravings.`}
+            content={`Best Indian Restaurant serving Indian & Srilankan cuisines including Curries, Biryanis, Appetizer and Desserts.`}
           />
           <meta name="twitter:card" content="summary" />
           <meta
@@ -75,7 +75,7 @@ export default function App({ Component, pageProps }: AppProps) {
           />
           <meta
             property="twitter:description"
-            content={`Relish the authentic taste of South Indian food. Located in the vibrant suburb of Gosnells, Perth, our menu boasts a wide range of dishes. From traditional curries to our signature biryanis, we've got everything you need to satisfy your cravings.`}
+            content={`Best Indian Restaurant serving Indian & Srilankan cuisines including Curries, Biryanis, Appetizer and Desserts.`}
           />
           <meta property="twitter:url" content={`https://masalatown.au/`} />
           <meta
